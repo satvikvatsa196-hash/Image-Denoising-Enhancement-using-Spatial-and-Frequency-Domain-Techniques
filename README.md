@@ -4,47 +4,13 @@ Image Denoising & Enhancement using Spatial and Frequency Domain Techniques
 
 👨‍💻 Developed By:
 
-Shubham Ranjan (23U03088) and
+Shubham Ranjan (23U03088) 
+
 Satvik Vatsa (23U03110)
 
-Department of Information Technology
+Department of Information Technology,
+
 IIIT Bhopal
-
-📂 Project Structure
-
-denoise_enhance/
-
- ├─ data/
- 
- │   ├─ clean/            ← put input images here
- 
- │   └─ results/          ← output images will auto-save here
- 
- ├─ src/
- 
- │   ├─ common.py
- 
- │   ├─ degrade.py
- 
- │   ├─ metrics.py
- 
- │   ├─ visualize.py
- 
- │   ├─ level_easy.py
- 
- │   ├─ level_medium.py
- 
- │   └─ level_hard.py
- 
- ├─ run_easy.py
- 
- ├─ run_medium.py
- 
- ├─ run_hard.py
- 
- ├─ results_plot.py
- 
- └─ requirements.txt
 
 ⚙️ Setup Guide
 1️⃣ Create virtual environment
