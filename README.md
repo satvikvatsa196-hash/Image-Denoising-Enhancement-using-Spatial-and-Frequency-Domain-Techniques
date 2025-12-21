@@ -4,8 +4,8 @@ Image Denoising & Enhancement using Spatial and Frequency Domain Techniques
 
 👨‍💻 Developed By:
 
-Shubham Ranjan (23U03088)
-Satvik Vasta (23U03110)
+Shubham Ranjan (23U03088) 
+Satvik Vatsa (23U03110)
 
 Department of Information Technology
 IIIT Bhopal
