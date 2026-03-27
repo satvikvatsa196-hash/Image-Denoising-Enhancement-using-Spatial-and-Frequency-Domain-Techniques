@@ -30,7 +30,6 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
-
 4. How to Run
 - Easy Level (Salt & Pepper Noise Removal)
 python run_easy.py
@@ -44,25 +43,25 @@ python run_medium.py
 
 Output:
 
-Gaussian smoothing
+- Gaussian smoothing
 
-Wiener filter
+- Wiener filter
 
-Non-Local Means (best)
+- Non-Local Means (best)
 
 - Hard Level (Motion Blur + Noise Removal)
 python run_hard.py
 
+5. Techniques used:
 
-# Techniques used:
+- Richardson-Lucy Deblurring
 
-Richardson-Lucy Deblurring
+- Blind Wiener Deconvolution
 
-Blind Wiener Deconvolution
+- NLM Denoising + Sharpening
 
-NLM Denoising + Sharpening
+6. Plot Results (PSNR & SSIM Comparison):
 
-#Plot Results (PSNR & SSIM Comparison)
 python results_plot.py
 
 This generates comparison graphs.
