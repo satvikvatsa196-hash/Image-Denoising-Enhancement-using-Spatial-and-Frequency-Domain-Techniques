@@ -14,10 +14,11 @@ IIIT Bhopal
 
 # Setup Guide
 
-1️. Create virtual environment
+1️. Create virtual environment:
+
 python -m venv venv
 
-2️. Activate environment
+2️. Activate environment:
 
 Windows:
 venv\Scripts\activate
@@ -25,9 +26,10 @@ venv\Scripts\activate
 Linux/Mac:
 source venv/bin/activate
 
-3️. Install dependencies
+3️. Install dependencies:
 
 pip install -r requirements.txt
+
 
 4. How to Run
 - Easy Level (Salt & Pepper Noise Removal)
