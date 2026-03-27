@@ -1,8 +1,8 @@
-#Project Title:
+# Project Title:
 
 Image Denoising & Enhancement using Spatial and Frequency Domain Techniques
 
-#Developed By:
+# Developed By:
 
 Shubham Ranjan 
 
@@ -12,7 +12,8 @@ Department of Information Technology,
 
 IIIT Bhopal
 
-#Setup Guide
+# Setup Guide
+
 1️. Create virtual environment
 python -m venv venv
 
@@ -49,7 +50,7 @@ Non-Local Means (best)
 python run_hard.py
 
 
-#Techniques used:
+# Techniques used:
 
 Richardson-Lucy Deblurring
 
@@ -62,7 +63,7 @@ python results_plot.py
 
 This generates comparison graphs.
 
-#Features
+# Features
 
 - Salt & Pepper noise removal
 - Gaussian noise smoothing
