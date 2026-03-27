@@ -1,39 +1,39 @@
-Project Title:
+#Project Title:
 
 Image Denoising & Enhancement using Spatial and Frequency Domain Techniques
 
-👨‍💻 Developed By:
+#Developed By:
 
-Shubham Ranjan (23U03088) 
+Shubham Ranjan 
 
-Satvik Vatsa (23U03110)
+Satvik Vatsa 
 
 Department of Information Technology,
 
 IIIT Bhopal
 
-⚙️ Setup Guide
-1️⃣ Create virtual environment
+#Setup Guide
+1️. Create virtual environment
 python -m venv venv
 
-2️⃣ Activate environment
+2️. Activate environment
 Windows:
 venv\Scripts\activate
 
 Linux/Mac:
 source venv/bin/activate
 
-3️⃣ Install dependencies
+3️. Install dependencies
 pip install -r requirements.txt
 
-▶️ How to Run
-🟢 Easy Level (Salt & Pepper Noise Removal)
+4. How to Run
+- Easy Level (Salt & Pepper Noise Removal)
 python run_easy.py
 
 
 
 
-🟡 Medium Level (Gaussian Noise Removal)
+- Medium Level (Gaussian Noise Removal)
 python run_medium.py
 
 
@@ -45,11 +45,11 @@ Wiener filter
 
 Non-Local Means (best)
 
-🔴 Hard Level (Motion Blur + Noise Removal)
+- Hard Level (Motion Blur + Noise Removal)
 python run_hard.py
 
 
-Techniques used:
+#Techniques used:
 
 Richardson-Lucy Deblurring
 
@@ -57,41 +57,31 @@ Blind Wiener Deconvolution
 
 NLM Denoising + Sharpening
 
-📊 Plot Results (PSNR & SSIM Comparison)
+#Plot Results (PSNR & SSIM Comparison)
 python results_plot.py
-
 
 This generates comparison graphs.
 
-📝 Features
+#Features
 
-✅ Salt & Pepper noise removal
-✅ Gaussian noise smoothing
-✅ Motion blur reduction
-✅ PSNR & SSIM quality metrics
-✅ Auto-save output images
-✅ Real-world enhancement simulation
+- Salt & Pepper noise removal
+- Gaussian noise smoothing
+- Motion blur reduction
+- PSNR & SSIM quality metrics
+- Auto-save output images
+- Real-world enhancement simulation
 
-🎯 Applications
+# Applications
 
-CCTV image enhancement
+- CCTV image enhancement
+- Medical image denoising
+- Drone & satellite clarity improvement
+- Photo restoration
+- Forensic image processing
+- Low-light camera noise removal
 
-Medical image denoising
-
-Drone & satellite clarity improvement
-
-Photo restoration
-
-Forensic image processing
-
-Low-light camera noise removal
-
-📌 Notes
-
-Put your input image in data/clean/
-
-Ensure the image name in run scripts matches your file
-
-Hard level depends on PSF accuracy — result varies with blur severity
-
-If output looks too soft, adjust sharpening parameters in level_hard.py
+# Notes
+- Put your input image in data/clean/
+- Ensure the image name in run scripts matches your file
+- Hard level depends on PSF accuracy — result varies with blur severity
+- If output looks too soft, adjust sharpening parameters in level_hard.py
