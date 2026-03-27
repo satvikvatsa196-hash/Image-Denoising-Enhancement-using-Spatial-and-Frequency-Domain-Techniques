@@ -18,6 +18,7 @@ IIIT Bhopal
 python -m venv venv
 
 2️. Activate environment
+
 Windows:
 venv\Scripts\activate
 
@@ -25,6 +26,7 @@ Linux/Mac:
 source venv/bin/activate
 
 3️. Install dependencies
+
 pip install -r requirements.txt
 
 4. How to Run
