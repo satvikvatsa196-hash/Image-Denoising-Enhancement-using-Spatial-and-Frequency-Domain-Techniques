@@ -44,11 +44,11 @@ python run_medium.py
 
 Output:
 
-* Gaussian smoothing
+Gaussian smoothing
 
-* Wiener filter
+Wiener filter
 
-* Non-Local Means (best)
+Non-Local Means (best)
 
 - Hard Level (Motion Blur + Noise Removal)
 python run_hard.py
